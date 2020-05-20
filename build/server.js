@@ -1020,41 +1020,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ApplicationContext__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__("./src/components/ApplicationContext.js");
 var _jsxFileName = "/Users/scottjoyner/git/financial-planner/src/components/App.js";
 
-/**
- * React Starter Kit (https://www.reactstarterkit.com/)
- *
- * Copyright © 2014-present Kriasoft, LLC. All rights reserved.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE.txt file in the root directory of this source tree.
- */
-
-
-
-
-/**
- * The top-level React component setting context (global) variables
- * that can be accessed from all the child components.
- *
- * https://facebook.github.io/react/docs/context.html
- *
- * Usage example:
- *
- *   const context = {
- *     history: createBrowserHistory(),
- *     store: createStore(),
- *   };
- *
- *   ReactDOM.render(
- *     <App context={context} insertCss={() => {}}>
- *       <Layout>
- *         <LandingPage />
- *       </Layout>
- *     </App>,
- *     container,
- *   );
- */
-
 function App({
   context,
   insertCss,
