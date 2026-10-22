@@ -1,1 +1,18 @@
 node_modules
+
+# Never add runtime secrets, local database copies, or account exports.
+# NOTE: ignore patterns do not remove already-tracked files or Git history.
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
